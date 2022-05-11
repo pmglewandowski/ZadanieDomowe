@@ -1,0 +1,8 @@
+<suite name="Test">
+    <test name="Eurobank">
+        <classes>
+            <class name="eurobank.pages.loginPage.LoginPageTest"/>
+            <class name="eurobank.pages.homePage.HomePageTest"/>
+        </classes>
+    </test>
+</suite>
