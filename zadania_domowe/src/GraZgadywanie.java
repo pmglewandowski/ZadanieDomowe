@@ -7,7 +7,7 @@ public class GraZgadywanie {
         int numberToGuess = new Random().nextInt(100);
         System.out.println("Proszę zgadnij liczbę z zakresu 0-99");
         int x = 0;
-        for (int i = 0; i < 5; i++) {
+        for (int i = 1; i < 5; i++) {
             System.out.println("Podaj liczbę:");
             x = getNumberFromUser();
             if (x > numberToGuess)
@@ -27,8 +27,7 @@ public class GraZgadywanie {
 
     public static int getNumberFromUser() {
         Scanner scanner = new Scanner(System.in);
-        int number = scanner.nextInt();
-        return number;
+        return scanner.nextInt();
     }
 
 }

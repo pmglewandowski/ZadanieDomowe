@@ -1,9 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f281ca35-5ac6-43f8-852f-835009e22fe0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zadania_domowe/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../zadania_domowe/src/Main.java" afterDir="false" />
+    <list default="true" id="b964bad0-ae9c-49f5-89d7-a794672f139f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../zadania_domowe/src/Multiply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zadania_domowe/src/Zadanko6/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zadania_domowe/src/Zadanko6/City.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zadania_domowe/src/Zadanko6/Letter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zadania_domowe/src/Zadanko6/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zadania_domowe/src/Zadanko6/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zadania_domowe/src/zadanko1/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zadania_domowe/src/zadanko1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zadania_domowe/src/zadanko1/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zadania_domowe/src/zadanko1/UserInputHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zadania_domowe/src/zadanko3/Company1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zadania_domowe/src/zadanko3/Employee1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zadania_domowe/src/zadanko7/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zadania_domowe/src/zadanko7/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zadania_domowe/src/zadanko7/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zadania_domowe/src/zadanko7/Eagle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zadania_domowe/src/zadanko7/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zadania_domowe/src/zadanko7/Penguin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zadania_domowe/src/zadanko8/Cable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zadania_domowe/src/zadanko8/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zadania_domowe/src/zadanko9/Actor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zadania_domowe/src/zadanko9/Director.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zadania_domowe/src/zadanko9/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zadania_domowe/src/zadanko9/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zadania_domowe/src/zadanko9/MovieLibrary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zadania_domowe/src/zadanko9/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zadania_domowe/out/production/zadania_domowe/GraZgadywanie.class" beforeDir="false" afterPath="$PROJECT_DIR$/../zadania_domowe/out/production/zadania_domowe/GraZgadywanie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zadania_domowe/src/GraZgadywanie.java" beforeDir="false" afterPath="$PROJECT_DIR$/../zadania_domowe/src/GraZgadywanie.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,50 +38,30 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="27VU4h5Os7KZPgDym4QM54PM5OO" />
+  <component name="ProjectId" id="28CeoK2fG0QZKZCZ8IYGtXM1BWP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-  </component>
-  <component name="RunManager">
-    <configuration name="Ex1_HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch09_methods.Ex1_HelloWorld" />
-      <module name="java-first-demo-master" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ch09_methods.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Ex1_HelloWorld" />
-      </list>
-    </recent_temporary>
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  }
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f281ca35-5ac6-43f8-852f-835009e22fe0" name="Changes" comment="" />
-      <created>1649404561285</created>
+      <changelist id="b964bad0-ae9c-49f5-89d7-a794672f139f" name="Changes" comment="" />
+      <created>1650725174524</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1649404561285</updated>
+      <updated>1650725174524</updated>
     </task>
     <servers />
   </component>
@@ -69,8 +75,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
 </project>
