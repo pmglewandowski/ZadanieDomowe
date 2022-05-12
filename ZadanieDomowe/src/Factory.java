@@ -3,19 +3,16 @@ import java.util.List;
 
 public class Factory {
     List<Car> cars;
-
     public Factory() {
         cars = new ArrayList<>();
     }
-
     public void addCar(Car car) {
         cars.add(car);
     }
-
     public void printAllData() {
         for (Car car : cars) {
 
-            System.out.println("\n" + car.getProducent().getName() + " " + car.getProducent().getModel() + ", "
+            System.out.println("\n\n" + car.getProducent().getName() + " " + car.getProducent().getModel() + ", "
                     + ((car.isAutomaticGear()) ? "skrzynia automatyczna" : "skrzynia manualna")
                     + ", segment " + car.getSegment()
                     + ", wymiary: wysokość " + car.getDimensions().getHigh() + "cm, szerokość " + car.getDimensions().getWidth() + "cm, pojemność baku " + car.getDimensions().getTrankCapacity() + " litrów."
@@ -30,6 +27,9 @@ public class Factory {
     }
 
     public void printCountryNameFor(String producentName, boolean isAutomaticGear, int trankCapacity) {
+        System.out.println("Kraj sprzedaży dla samochodu spełniającego kryteria: \n"
+                + "- nazwa producenta: " + producentName + "\n- czy skrzynia biegów jest automatyczna: " + isAutomaticGear + "\n- pojemność baku: " + trankCapacity);
+
         for (Car car : cars) {
             for (Country country : car.getCountriesOfSale()) {
                 if (car.getProducent().getName().equals(producentName) && (car.getDimensions().getTrankCapacity() == trankCapacity) && (car.isAutomaticGear() == isAutomaticGear)) {

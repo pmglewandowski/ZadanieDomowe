@@ -1,22 +1,25 @@
 import java.util.List;
 
 public class Car {
+
+    private Producent producent;
+    private boolean isAutomaticGear;
+    private String segment;
+    private Dimensions dimensions;
+    private List<Country> countriesOfSale;
+
     public Producent getProducent() {
         return producent;
     }
-
     public boolean isAutomaticGear() {
         return isAutomaticGear;
     }
-
     public String getSegment() {
         return segment;
     }
-
     public Dimensions getDimensions() {
         return dimensions;
     }
-
     public List<Country> getCountriesOfSale() {
         return countriesOfSale;
     }
@@ -29,9 +32,5 @@ public class Car {
         this.countriesOfSale = countriesOfSale;
     }
 
-    private Producent producent;
-    private boolean isAutomaticGear;
-    private String segment;
-    private Dimensions dimensions;
-    private List<Country> countriesOfSale;
+
 }

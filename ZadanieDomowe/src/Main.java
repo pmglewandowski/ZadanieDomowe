@@ -6,9 +6,6 @@ public class Main {
 
     public static  void main(String[] args) {
 
-
-
-
         Country niemcy = new Country("Germany",'D');
         Country wlochy = new Country("Italy",'I');
         Country anglia = new Country("England",'E');

@@ -1,8 +1,11 @@
 public class Country {
+
+    private String countryName;
+    private char countrySign;
+
     public String getCountryName() {
         return countryName;
     }
-
     public char getCountrySign() {
         return countrySign;
     }
@@ -12,8 +15,7 @@ public class Country {
         this.countrySign = countrySign;
     }
 
-    private String countryName;
-    private char countrySign;
+
 
 
 

@@ -1,12 +1,15 @@
 public class Dimensions {
+
+    private int high;
+    private int width;
+    private int trankCapacity;
+
     public int getHigh() {
         return high;
     }
-
     public int getWidth() {
         return width;
     }
-
     public int getTrankCapacity() {
         return trankCapacity;
     }
@@ -17,7 +20,5 @@ public class Dimensions {
         this.trankCapacity = trankCapacity;
     }
 
-   private int high;
-   private int width;
-   private int trankCapacity;
+
 }
